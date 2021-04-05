@@ -1,0 +1,6 @@
+__pycache__
+cache.json
+secrets.py
+scrapehello.py
+proj2_nps_test.py
+cache/*
