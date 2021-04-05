@@ -267,23 +267,3 @@ if __name__ == "__main__":
                 continue
         
         continue
-
-
-
-
-
-    # # Test get_nearby_places
-    # instance = get_site_instance("https://www.nps.gov/cach/index.htm")
-    
-    # Result_dict = get_nearby_places(instance)
-    # # Print Result_dict
-    # print("------------------------------")
-    # print("Places near",site_name)
-    # print("------------------------------")
-    # for item in Result_dict["searchResults"]:
-    #     name = item["fields"]["name"]
-    #     category = item["fields"]["group_sic_code_name"]
-    #     address = item["fields"]["address"]
-    #     city = item["fields"]["city"]
-    #     print_str = "- " + name + " (" + category + "): " + address + ", " + city
-    #     print(print_str)
